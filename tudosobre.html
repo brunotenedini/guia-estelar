@@ -1,0 +1,573 @@
+<!--
+    Comentários:
+   
+    -HTML
+    -HyperText Markup Language
+
+    Anatomia das tags:
+
+    -Abertura de tag
+    -Fechamento de tag
+    -Conteúdo
+    -Elemento
+    EX:
+
+-->
+<h1>
+    Título
+</h1>
+<!--
+    Elementos vazios
+    EX:
+
+-->
+<img src="" alt="">
+<input type="button" value="Teste">
+<!--
+    Elementos HTML possuem
+     Atributos:
+    -Informações extras
+    -Configurações 
+    EX:
+
+-->
+<img src="conteudo" alt="">
+<!--
+
+    Atributos booleanos:
+
+    -Não precisam de conteúdo
+    EX: disabled
+
+-->
+<input type="text">
+<!--
+    Aspas:
+    - omissão
+    - simples
+    - duplas
+    href diz a onde levar quando a pessoa clicar
+    EX:
+-->
+<a href="https://google.com">link</a>
+<!--
+    Atributos globais:
+    - class (serve para classificar)
+    - contenteditable (te permite editar o preview)
+    - data-* (após o tracinho colocar qualquer nome)
+    - hidden (serve para esconder algo)
+    - id (se for repitir nome utilizar classs, cada id com seu próprio nome)
+    - style (estilizar coisas, função de css, porém pode ser feita html, nao usar em tag)
+    - tabindex (facilitar o uso do site para as pessoas)
+    - title (definir título)
+    Todos usados em javascript e css
+    div=tag
+    EX:
+
+-->
+<div class="carrinho" contenteditable="true" id="cart1" tabindex="3">
+    <!--Elementos aqui dentro--> conteúdo
+</div>
+
+<div class="carrinho" data-id="" id="cart2" style="color:red" tabindex="2">
+    <!--Elementos aqui dentro--> conteúdo
+</div>
+
+<div class="carrinho" hidden>
+    <!--Elementos aqui dentro--> conteúdo conteudo2
+</div>
+
+<div title="definir um título">
+    conteúdo
+</div>
+
+<!--
+    Alinhamento de tags:
+    -Fluxo (ordem em que vai ser lida)
+    -Hierarquia (a ordem das tags, ex pai e filha)
+    -Posicionamento dos elementos
+-->
+<div>
+    <p>
+        vou <em> <a href="http://google.com.br">escrever</em> </a> <br> um parágrafo
+    </p>
+</div>
+<p>
+    esse é um novo parágrafo
+</p>
+
+<!--
+    Vamos praticar
+-->
+
+<div>
+    <h1>
+        <strong>
+            <em>
+                <a target="_blank" href="https://agar.io/#ffa">
+
+                    Agar.io
+                </a>
+        </strong>
+        </em>
+
+
+
+
+
+    </h1>
+    <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; É um jogo que ficou muito famoso ultimamente que consiste em você conseguir a
+        maior massa do
+        do seu personagem na partida. </p>
+    <p>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Com o tempo os <em>players</em> foram evoluindo suas habilidades fazendo time
+        entre eles, etc.
+    </p>
+    <p>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Para jogar agar.io clique
+
+        <strong>
+            <em>
+                <a target="_blank" href="https://agar.io/#ffa">aqui.</a>
+            </em>
+        </strong>
+    </p>
+    <p>
+
+
+
+    </p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Caso queira algumas dicas de como jogar acesse
+
+    <strong>
+        <em>
+            <a
+                href="https://www.purebreak.com.br/noticias/dicas-para-agar-io-como-se-dar-bem-no-game-que-e-a-febre-do-momento/19240">agario
+                dicas.</a>
+        </em>
+    </strong>
+
+
+
+
+
+</div>
+<!--
+    Conteúdo do texto
+    Caracteres reservados.
+-->
+
+&nbsp;
+<!--Reservados-->
+&lt; &gt; &amp; &quot; &apos;
+
+<!--
+    Semântica:
+    - dar significado
+    - elementos semânticos
+    (se fazer perguntas)
+-->
+
+<!--
+    Cabeçalhos e parágrafos
+-->
+
+<h1>Sobre mim</h1>
+<p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, nobis saepe amet aperiam quia incidunt expedita vero
+    beatae earum animi!
+</p>
+Possimus, minima excepturi ipsam temporibus perferendis corrupti dolorum architecto cum!
+
+<h2>Nascimento</h2>
+<p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis aspernatur a deleniti qui ullam asperiores aut
+    magni accusamus! </p> Quasi dolorum, beatae commodi fugit fugiat reiciendis reprehenderit voluptates ad natus nobis?
+
+<h2>Trabalho</h2>
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo aliquam qui rem neque reprehenderit, incidunt doloribus
+libero fugit similique quia quam cum adipisci eveniet asperiores expedita praesentium! Sapiente, laudantium quaerat?
+
+
+<a href="">saiba mais</a> <br>
+
+<!--
+    Listas
+    - ordenadas
+    - não ordenadas
+-->
+<h1>Lista</h1>
+
+<h2>Igredientes:</h2>
+<ol>
+    <li>3 folhas de couve;</li>
+    <li>1 laranjas;</li>
+    <li>1 pedacinho gengibre;</li>
+    <li>300ml de água;</li>
+    <li>Adoçante a gosto;</li>
+    <li>Gelo a gosto.</li>
+</ol>
+<ul>
+    <li>3 folhas de couve;</li>
+    <li>1 laranjas;</li>
+    <li>1 pedacinho gengibre;</li>
+    <li>300ml de água;</li>
+    <li>Adoçante a gosto;</li>
+    <li>Gelo a gosto.</li>
+</ul>
+
+<!--
+    Citações (créditos)
+
+    <blockquote>
+
+    <cite>
+
+    <q>
+-->
+<blockquote cite="https://developer.mozilla.org/pt-BR/">
+
+    <p>O <strong>Elemento HTML <code> &lt;blockquote&gt;</code></strong> (ou <em>HTML Block
+            Quotation Element</em> indica que um texto externo foi citado.</p>
+</blockquote>
+
+<p>De acordo com <a href="https://developer.mozilla.org/pt-BR/">
+        <cite> página MDN blockquote</cite></a>
+</p>
+
+<!--
+    Abreviações
+
+    <abbr>
+-->
+
+<p>Usamos <abbr ttle="Hypertext Markup Language">HTML</abbr> para estruturar nossos documentos da web.</p>
+
+<!--
+    Detalhes de contato
+
+    <addres>
+-->
+
+<address>
+    <p>Bruno Tenedini <br>
+        <strong>Santo André, SP</strong>
+    </p>
+
+
+
+</address>
+
+<!--
+    Lista de descrição
+
+    <dl>
+        <dt>/dt>
+        <dd></dd>
+    </dl>
+-->
+
+<h2>Glossário</h2>
+<dl>
+    <dt>Hypertext</dt>
+    <dd>Éum hipertexto com possibilidades...</dd>
+
+    <dt>Markup</dt>
+    <dd>Marcação do texto</dd>
+</dl>
+
+<!--
+    Elementos genéricos
+
+    * <div>
+    * <span>
+-->
+
+<div>
+    Um texto qualquer
+</div>
+<span>outro
+
+</span> texto
+<!--
+    Hyperlinks - Elemento Âncora: <a>
+
+        +Anatomia
+
+        +Atributos:
+        -globais (title, id, class...)
+        -href
+            -para onde iremos, quando clicamos no link?
+                -url completa
+                -fragmento
+                -email
+                -telefone
+                -e outros.
+            -dowload
+            -target
+                -_self (padrão)
+                -_blank
+-->
+
+<a href="fragmento"></a>
+<a href="Nmuero"> </a>
+<a href="email"></a>
+<a href="img" dowload=""></a>
+<a href="https://google.com" target="_blank">Google</a>
+<a href="https://google.com" target="_self">Google</a>
+
+<!--<p>Encontre-me:</p>
+
+<ul>
+    <li><a href="https://rocketseat.com.br" target="_blank">website</a></li> 
+    <li><a href="mailto:bruno.sales.tenedini@gmail.com" target="_blank">email</a></li>
+    <li><a href="tel:+5511955400912">telefone</a></li>
+</ul>
+-->
+
+<p>Saiba mais</p>
+<ul>
+    <li><a href="#about">Sobre mim</a></li>
+    <li><a href="#history">História</a></li>
+    <li><a href="#works">Trabalhos</a></li>
+</ul>
+
+<h1 id="about">Sobre mim</h1>
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. At quasi, optio labore, voluptatem asperiores quam veritatis
+vitae sunt deserunt earum consectetur voluptate totam voluptas architecto cupiditate amet dignissimos beatae officia?
+
+<h2 id="history">História</h2>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima numquam ipsam ad magni labore nihil at ipsa voluptates
+cumque ducimus! Quaerat, numquam tempore vitae possimus delectus eligendi facilis odio ea.
+
+<h2 id="works">Trabalhos</h2>
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatum magnam error, dignissimos eveniet at neque
+nam ipsa alias, perferendis ad hic a magni totam similique aspernatur modi? Impedit, alias?
+
+<!--
+    Conteúdo dos hyperlinks
+
+    - qualquer conteúdo
+-->
+
+<a href="http://google.com" title="ir para o google">
+    <h1><strong><em>Google</em></strong></h1>
+    <p><img src="https://source.unsplash.com/random" alt=""></p>
+</a>
+<!--
+    URLs e Caminhos dos arquivos
+
+    -Uniform Resource Locator
+        -https://www.rocketseat.com.br
+        -Sequência de texto que define onde algo está localizado na web
+    -URL usam caminhos para encontrar arquivos
+
+    -Caminhos dos arquivos
+        -Onde, no explorador de arquivos, um recurso está localizado
+
+-->
+
+<a href=""></a>
+
+<!--Como navegar pelos caminhos?
+    mesmo diretório
+    entrando em diretórios
+    saindo de diretórios ../
+    diretório raiz (root)
+-->
+
+
+
+<p><a href="../outros/anatomia.html">Anatomia</a> </p>
+<p><a href="../outros/urlcaminhos.html">URL caminhos</a></p>
+
+
+<!--
+    URLs absolutas vs relativos
+
+    -Absolutos
+        -inclui protocolo e nome de domínio
+            -https://www.rocketseat.com.br/projeto/index.html
+        -sempre apontará para o mesmo local, pois é absoluto
+
+    -Relativos
+        -relativo à página aberta no momento
+        -apontará para lugares diferentes
+    
+-->
+
+<a href="Google.com"> relativo ir para o google</a>
+<br>
+<br>
+<a href="https://google.com">absoluto ir para o google</a>
+
+<!--
+    <table> 
+
+        Prós
+        - pouco flexível
+        - precisa de estilização
+
+        Não usae
+        - para criar seu layout
+-->
+
+<table>
+
+    <caption>Pessoas por idade</caption>
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Bruno</td>
+            <td>17</td>
+        </tr>
+        <tr>
+            <td>Diego</td>
+            <td>20</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Total:</td>
+            <td>2 pessoas</td>
+        </tr>
+    </tfoot>
+</table>
+<br>
+<br>
+<br>
+
+
+<!--
+    2 lojas
+         quantos produtos foram produzidos,quantos
+        vendidos e agrupado por nome dos produtos
+-->
+<table>
+
+    <caption>produzidos x vendidos</caption>
+
+    <colgroup>
+        <col>
+        <col span="2" style="background-color: red;">
+        <col span="2" style="background-color: royalblue;">
+    </colgroup>
+
+    <thead>
+        <tr>
+
+            <th rowspan="2"></th>
+            <th colspan="2"scope="colgroup">Loja 1</th>
+            <th colspan="2"scope="colgroup">Loja 2</th>
+
+        </tr>
+
+        <tr>
+            <th scope="col">Produzidos</th>
+            <th scope="col">Vendidos</th>
+            <th scope="col">Produzidos</th>
+            <th scope="col">Vendidos</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">Vassouras</th>
+            <td>50</td>
+            <td>30</td>
+            <td>20</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <th scope="row">Baldes
+            <td>10</td>
+            <td>10</td>
+            <td>30</td>
+            <td>25</td>
+            </th>
+        </tr>
+    </tbody>
+
+</table>
+
+<!--
+    <head>
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!--
+    <meta>
+
+    atributos
+    -charset
+    -name
+    -content
+-->
+<head>
+    <!--codificação de caracteres especiais-->
+    <meta charset="UTF-8">
+
+    <!--Portabilidade para dispositivos mobiles-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<!--
+    <link> para ícones personalizados
+-->
+<!--favicon básico-->
+<link rel="icon" href="">
+
+<!--
+    <meta>
+    -charset
+    -viewport
+    -author
+    -description
+    -robots
+-->
+
+<head>
+    <!-- SEO: SEARCH ENGINE OPTIMIZATION (motores de busca = google)-->
+    <meta name="author" content="Bruno tenedini">
+    <meta name="description" content="Um website para inciantes em programação">
+    <meta name="-robots" content="nofollow, noindex">
+    <!--Padrão Index, follow-->
+</head>
+<!--
+    <meta> redes sociais
+-->
+<head>
+    <!-- Open Graph: facebook-->
+     <meta property="og: image" content="">
+     <meta property="og: title" content="">
+</head>
+
+<!--Anatomia HTML
+-->
+
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>  
+    
+  </body>
+</html>
+
+<a href="../subpasta/index.html">abrir index html</a>
+<br>
+<a href="./urlcaminhos.html">URL</a>
+
